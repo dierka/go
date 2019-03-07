@@ -1,0 +1,37 @@
+{
+  "name": "go",
+  "version": "0.0.1",
+  "description": "REST Framework",
+  "main": "./src/lib/index.js",
+  "bin": {
+    "go-database": "./src/bin/go.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dierka/go.git"
+  },
+  "keywords": [
+    "restful",
+    "rest",
+    "framework",
+    "express"
+  ],
+  "author": "Felipe Dierka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "consign": "0.1.6",
+    "cors": "2.8.5",
+    "debug": "4.1.1",
+    "dotenv": "6.2.0",
+    "express": "4.16.4",
+    "express-http-context": "1.2.0",
+    "go-database": "1.0.8",
+    "install": "0.12.2",
+    "jsonwebtoken": "8.4.0",
+    "mssql": "4.2.2",
+    "npm": "6.7.0",
+    "odin-request-retry": "1.0.5",
+    "tamper": "1.1.0"
+  }
+}
